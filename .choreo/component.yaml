@@ -1,0 +1,8 @@
+schemaVersion:
+  1.0
+  # Example endpoint configuration
+endpoints:
+  - name: employees-service-endpoint
+    service:
+      port: 5102
+    type: REST
